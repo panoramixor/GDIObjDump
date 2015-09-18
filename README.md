@@ -29,7 +29,8 @@ Installation:
     After that, you can issue "!load gdiobjdump" to load the extension into 
 	WinDbg/Kd. 
     
-    NOTE: Only x64 Windbg/Kd is supported. Use the x64 debugger versions even for x86 targets.
+    NOTE: Only x64 Windbg/Kd is supported. Use the x64 debugger versions even 
+	for x86 targets.
         
 Usage: 
 ------
