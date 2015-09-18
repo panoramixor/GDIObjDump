@@ -51,15 +51,13 @@ Output:
     If -b switch is used, a filename is required and binary output is written there.
 
 Examples: 
+---------
 
-# Parse PEB.GdiSharedHandleTable and output text to the debugger console.
+- Parse PEB.GdiSharedHandleTable and output text to the debugger console.
 !gdiobjdump -u
-
-# Parse WIN32K!gpentHmgr and write binary output to "c:\temp\out.gdidump" 
+- Parse WIN32K!gpentHmgr and write binary output to "c:\temp\out.gdidump" 
 !gdiobjdump -k -b c:\temp\out.gdidump                   
-
-# Parse PEB.GdiSharedHandleTable, output text to "c:\temp\out.log", 
-# log file will only include information about GDI objects matching 
-# Pid:0x644, Type:0x0a (GDIObjType_LFONT_TYPE), Handle:0x150a02dc
+- Parse PEB.GdiSharedHandleTable, output text to "c:\temp\out.log", 
+log file will only include information about GDI objects matching 
+Pid:0x644 and Type:0x0a (GDIObjType_LFONT_TYPE) and Handle:0x150a02dc
 !gdiobjdump -a c:\temp\out.log -p 644 -t a -h 150a02dc
-
