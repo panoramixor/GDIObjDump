@@ -1,0 +1,7 @@
+LIBRARY "gdiobjdump.DLL"
+
+EXPORTS
+    WinDbgExtensionDllInit
+    ExtensionApiVersion
+    gdiobjdump
+    help
