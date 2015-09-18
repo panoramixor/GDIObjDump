@@ -1,7 +1,8 @@
-GDIObjDump v1.0 - pnx!/CORE
+GDIObjDump:
+-----------
 
 What is this?:
---------------
+
     GDIObjDump is a debugger extension (WinDbg/Kd) to aid in the process 
 	of exploiting SessionPool overflows. It can extract information for 
 	all GDI Objects listed in either PEB.GdiSharedHandleTable or WIN32K!gpentHmgr.
